@@ -1,0 +1,16 @@
+{
+	"name": "underbar_aberration",
+	"displayedName": "Aberration",
+	"baseAttack": 0,
+	"baseHealth": 5,
+	"bonesCost": 4,
+	"texture": "underbar_kat_portrait_1.png",
+	"emissionTexture": "underbar_kat_portrait_1_emissive.png",
+	"specialAbilities": [
+		"underbar.AberrationTransform"
+	],
+	"abilities": [
+		"underbar.BloodBank",
+		"RandomAbility"
+	]
+}

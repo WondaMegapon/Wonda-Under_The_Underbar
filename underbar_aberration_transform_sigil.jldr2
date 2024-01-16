@@ -1,0 +1,23 @@
+{
+	"name": "AberrationTransform",
+	"GUID": "underbar",
+	"priority": 0,
+	"activationCost": {
+		"bonesCost": 0,
+		"energyCost": 0,
+		"bloodCost": 0,
+		"gemCost": 0
+	},
+	"isSpecialAbility": true,
+	"abilityBehaviour": [{
+		"changeAppearance": [{
+			"runOnCondition": "([BaseCard.Attack] > 1 and[BaseCard.Attack] < 4)",
+			"targetCard": "[BaseCard]",
+			"changePortrait": "underbar_kat_portrait_2.png"
+		}, {
+			"runOnCondition": "([BaseCard.Attack] >= 4)",
+			"targetCard": "[BaseCard]",
+			"changePortrait": "underbar_kat_portrait_3.png"
+		}]
+	}]
+}

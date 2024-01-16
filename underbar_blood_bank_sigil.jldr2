@@ -1,0 +1,31 @@
+{
+	"name": "BloodBank",
+	"GUID": "underbar",
+	"metaCategories": [],
+	"description": "When sacrificing a card bearing this sigil, it does not perish, and instead converts its health into damage.",
+	"abilityLearnedDialogue": "Growing power...",
+	"texture": "underbar_ability_blood_bank.png",
+	"pixelTexture": "",
+	"powerLevel": 4,
+	"priority": 0,
+	"opponentUsable": false,
+	"canStack": false,
+	"activationCost": {
+		"bonesCost": 0,
+		"energyCost": 0,
+		"bloodCost": 0,
+		"gemCost": 0
+	},
+	"isSpecialAbility": false,
+	"abilityBehaviour": [{
+		"trigger": {
+			"activatesForCardsWithCondition": "",
+			"triggerType": "OnSacrifice"
+		},
+		"buffCards": [{
+			"runOnCondition": "([BaseCard] == [SacrificeTargetCard])",
+			"targetCard": "[BaseCard.Slot.Index]",
+			"addStats": "1/-1"
+		}]
+	}]
+}

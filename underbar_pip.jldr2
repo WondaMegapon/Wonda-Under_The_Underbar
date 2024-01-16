@@ -1,0 +1,11 @@
+{
+	"name": "underbar_Pip",
+	"displayedName": "Pip",
+	"baseAttack": 0,
+	"baseHealth": 4,
+	"bonesCost": 4,
+	"abilities": [
+		"WhackAMole",
+		"Sharp"
+	]
+}
