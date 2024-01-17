@@ -10,13 +10,16 @@
 	},
 	"isSpecialAbility": true,
 	"abilityBehaviour": [{
+    "trigger": {
+      "triggerType": "OnSacrifice"
+    },
 		"changeAppearance": [{
-			"runOnCondition": "([BaseCard.Attack] > 1 and[BaseCard.Attack] < 4)",
-			"targetCard": "[BaseCard]",
+			"runOnCondition": "([BaseCard.Attack] >= 1 && [BaseCard.Attack] < 3)",
+			"targetCard": "([BaseCard])",
 			"changePortrait": "underbar_kat_portrait_2.png"
 		}, {
-			"runOnCondition": "([BaseCard.Attack] >= 4)",
-			"targetCard": "[BaseCard]",
+			"runOnCondition": "([BaseCard.Attack] >= 3)",
+			"targetCard": "([BaseCard])",
 			"changePortrait": "underbar_kat_portrait_3.png"
 		}]
 	}]

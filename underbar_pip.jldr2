@@ -1,9 +1,13 @@
 {
 	"name": "underbar_Pip",
 	"displayedName": "Pip",
+  "description": "",
+  "metaCategories": [],
+  "cardComplexity": "Vanilla",
+  "temple": "Undead",
 	"baseAttack": 0,
 	"baseHealth": 4,
-	"bonesCost": 4,
+	"bonesCost": 3,
 	"abilities": [
 		"WhackAMole",
 		"Sharp"

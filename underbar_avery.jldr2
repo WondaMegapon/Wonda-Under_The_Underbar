@@ -1,0 +1,13 @@
+{
+	"name": "underbar_Avery",
+	"displayedName": "Pizza Maid",
+  "description": "",
+  "metaCategories": [],
+  "cardComplexity": "Vanilla",
+  "temple": "Nature",
+	"baseAttack": 1,
+	"baseHealth": 2,
+	"bloodCost": 1,
+  "texture": "underbar_avery_portrait.png",
+	"emissionTexture": "underbar_avery_emissive_portrait.png"
+}

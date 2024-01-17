@@ -1,0 +1,16 @@
+{
+	"name": "underbar_Lucy",
+	"displayedName": "Lucy",
+  "description": "",
+  "metaCategories": [],
+  "cardComplexity": "Vanilla",
+  "temple": "Nature",
+	"baseAttack": 0,
+	"baseHealth": 2,
+	"bloodCost": 1,
+  "texture": "underbar_lucy_portrait.png",
+	"emissionTexture": "underbar_lucy_portrait_emissive.png",
+	"abilities": [
+    "underbar.Mournful"
+	]
+}

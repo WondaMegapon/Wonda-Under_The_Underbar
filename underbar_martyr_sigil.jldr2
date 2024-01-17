@@ -1,0 +1,42 @@
+{
+	"name": "Martyr",
+	"GUID": "underbar",
+	"metaCategories": [
+    "Part1Rulebook"
+  ],
+	"description": "When sacrificing a card bearing this sigil, its health converts into damage.",
+	"abilityLearnedDialogue": "Blood to power.",
+	"texture": "underbar_ability_martyr.png",
+	"pixelTexture": "",
+	"powerLevel": 4,
+	"priority": 0,
+	"opponentUsable": false,
+	"canStack": false,
+	"activationCost": {
+		"bonesCost": 0,
+		"energyCost": 0,
+		"bloodCost": 0,
+		"gemCost": 0
+	},
+	"isSpecialAbility": false,
+	"abilityBehaviour": [{
+    "trigger": {
+      "triggerType": "OnResolveOnBoard"
+    },
+    "buffCards": [{
+      "targetCard": "([BaseCard])",
+      "addAbilities": [{
+        "name": "Sacrificial",
+        "infused": "false"
+      }]
+    }]
+  },{
+		"trigger": {
+			"triggerType": "OnSacrifice"
+		},
+		"buffCards": [{
+			"targetCard": "([BaseCard])",
+			"addStats": "(1)/(-1)"
+		}]
+	}]
+}

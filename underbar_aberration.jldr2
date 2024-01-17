@@ -1,6 +1,10 @@
 {
 	"name": "underbar_aberration",
 	"displayedName": "Aberration",
+  "description": "A spirit from another world. Useful if provoked.",
+  "metaCategories": [],
+  "cardComplexity": "Vanilla",
+  "temple": "Undead",
 	"baseAttack": 0,
 	"baseHealth": 5,
 	"bonesCost": 4,
@@ -10,7 +14,7 @@
 		"underbar.AberrationTransform"
 	],
 	"abilities": [
-		"underbar.BloodBank",
+		"underbar.Martyr",
 		"RandomAbility"
 	]
 }

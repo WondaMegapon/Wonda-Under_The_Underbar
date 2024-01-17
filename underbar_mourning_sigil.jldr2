@@ -1,0 +1,30 @@
+{
+	"name": "Mournful",
+	"GUID": "underbar",
+	"metaCategories": [
+    "Part1Rulebook"
+  ],
+	"description": "When this card is attacked, deal one damage directly to the opponent.",
+	"abilityLearnedDialogue": "Sadness is a form of pain, too.",
+	"texture": "underbar_ability_mournful.png",
+	"pixelTexture": "",
+	"powerLevel": 5,
+	"priority": 0,
+	"opponentUsable": false,
+	"canStack": false,
+	"activationCost": {
+		"bonesCost": 0,
+		"energyCost": 0,
+		"bloodCost": 0,
+		"gemCost": 0
+	},
+	"isSpecialAbility": false,
+	"abilityBehaviour": [{
+    "trigger": {
+      "triggerType": "OnStruck"
+    },
+    "dealScaleDamage": {
+      "damage": "1"
+    }
+  }]
+}
