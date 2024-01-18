@@ -8,6 +8,8 @@
 	"baseAttack": 0,
 	"baseHealth": 4,
 	"bonesCost": 3,
+  "texture": "underbar_pip_portrait.png",
+	"emissionTexture": "underbar_pip_portrait_emissive.png",
 	"abilities": [
 		"WhackAMole",
 		"Sharp"
